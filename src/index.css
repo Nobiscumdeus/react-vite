@@ -1,0 +1,46 @@
+/**
+@import url('https://googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+**/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+  font-family:'Poppins',sans-serif;
+}
+body
+{
+  background:#333;
+  color:#000;
+}
+li
+{
+  list-style:none;
+  cursor:pointer;
+  position:relative;
+}
+li:hover::before{
+  content:'';
+  height:4px;
+  width:100%;
+  background:#2a68ff;
+  right:0;
+  color:#2a68ff;
+
+}
+.icon
+{
+  cursor:pointer;
+}
+.card
+{
+  background:#000;
+}
+/**
+
+@tailwind base;
+@tailwind components;
+@tailwaind utilities;
+
+**/
