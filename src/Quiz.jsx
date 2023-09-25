@@ -4,7 +4,7 @@ import {resultInitialState} from './constants'
 //{questions} is used as a parameter to get the questions from constants.js'
 const Quiz = ({ questions }) => {
   //We ae iniializing several states 
-  const [currentQuestion, setCurrentQuestion] = useState(1); //Initialize the numbering
+  const [currentQuestion, setCurrentQuestion] = useState(0) //Initialize the numbering
   const [answerIndex, setAnswerIndex] = useState(null);
   const [answer, setAnswer] = useState(null);
   const [result,setResult]=useState(resultInitialState);
